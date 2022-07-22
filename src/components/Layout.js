@@ -39,6 +39,7 @@ border-right: 1px solid grey;
 padding: 5px;
 margin: 0px;
 font-size: 25px;
+font-family: "DIN Next W01 Regular", Helvetica, Arial, sans-serif;
 
 `
 
@@ -50,7 +51,7 @@ export const Layout = () => {
     <main>
         <Header/>
             <nav><Navs><LinksF>
-                <Link to="/"> <Links> <a >  HOME</a></Links> </Link>
+                <Link to="/"> <Links>   HOME </Links> </Link>
                 <Link to="/starships/"><Links> STARSHIPS  </Links></Link></LinksF>
           </Navs>   </nav>
         <section>

@@ -25,8 +25,18 @@ import { Link } from 'react-router-dom'
     color: #aaa;
     font-family: "DIN Next W01 Regular", Helvetica, Arial, sans-serif;
     & a {text-decoration: none; color: #aaa;}
-  `
+    `
+    const Buttons = styled.div `
 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    `
+
+    const Button = styled.button `
+    font-size: 20px;
+    margin: 5px;
+    `
     
 function StarShips()  {
 
@@ -70,7 +80,7 @@ function StarShips()  {
         })}  
          <div> 
           {nextPage && 
-            <button onClick={() => setPage(page + 1)}> Cargar mas </button>}
+           <Buttons> <Button onClick={() => setPage(page + 1)}> Cargar mas </Button></Buttons> }
         </div>
       </div>
     </Container>

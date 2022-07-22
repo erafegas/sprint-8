@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import {Link } from "react-router-dom";
 
 const Container = styled.div `
     width: 70%;
@@ -158,7 +158,12 @@ margin-top: 15px;
 text-align: right;
 font-family: "DIN Next W01 Regular", Helvetica, Arial, sans-serif;
 letter-spacing: 4px;
+&  a {text-decoration: none;
+    color: #aaa;
+}
 `
+
+
 
 export const Header = () => {
   return (
@@ -180,7 +185,7 @@ export const Header = () => {
         <BoxRight>
             <ContainerInput> 
                 <Input placeholder='Search Star Wars' /> 
-                <Login> LOG IN // SIGN UP  </Login>
+                <Login> <Link to="/Login/"> <a>  LOG IN </a></Link>  </Login>
             </ContainerInput> 
         </BoxRight>
     </Container>
