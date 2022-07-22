@@ -8,8 +8,8 @@ Además, en la parte derecha de la pantalla, el usuario podrá acceder a un logi
 
 # Conceptos aprendidos
 
-Repasar los componentes, state, useEffect i props de React.
-Repasar styled-components.
-Utilizar localStorage.
-Utilizar rutas de React.
-Consumo de datos de una API.
+- Repasar los componentes, state, useEffect i props de React.
+- Repasar styled-components.
+- Utilizar localStorage.
+- Utilizar rutas de React.
+- Consumo de datos de una API.
